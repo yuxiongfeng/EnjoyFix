@@ -67,7 +67,6 @@ public class MyAnnotationProcessor extends AbstractProcessor {
                 mMessager.printMessage(Diagnostic.Kind.NOTE, "packageName==" + packageName);
                 Name simpleName = element.getSimpleName();
                 mMessager.printMessage(Diagnostic.Kind.NOTE, "simpleName==" + simpleName);
-
                 String test = "package com.proton.ecg.enjoyfix;\n" +
                         "\n" +
                         "public class Test {\n" +

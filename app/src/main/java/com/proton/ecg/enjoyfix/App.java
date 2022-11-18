@@ -15,6 +15,7 @@ public class App extends Application {
         super.onCreate();
         Logger.newBuilder()
                 .isDebug(true)
-                .tag("enjoyFix").build();
+                .tag("enjoyFix")
+                .build();
     }
 }
