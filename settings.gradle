@@ -1,0 +1,4 @@
+include ':annotation'
+include ':compile'
+include ':app'
+rootProject.name = "EnjoyFix"
